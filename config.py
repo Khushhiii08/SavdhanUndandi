@@ -1,0 +1,7 @@
+VIDEO_SOURCE = "data/videos/campus_mock3.mp4"
+
+PERSON_CONF_THRESHOLD = 0.6
+
+# Prevention thresholds
+LOITER_TIME_SECONDS = 25
+AGGRESSION_SCORE_THRESHOLD = 0.7

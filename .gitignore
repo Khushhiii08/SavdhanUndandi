@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Mac
+.DS_Store
+
+# Large files / videos
+*.mp4
+*.avi
+data/videos/
+
+# Models
+*.pt
+*.onnx
