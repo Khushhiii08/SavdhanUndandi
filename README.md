@@ -40,23 +40,33 @@ Instead of classifying actions as “violent” or “non-violent”, the system
 - **Explainable rule-based logic**
 - **Low false positives**
 - **Ethical and bias-aware**
-- **Edge-friendly and AMD-compatible**
+- **Edge-friendly**
 
 ---
 
 ## 🏗️ System Architecture
 
 Video Stream (CCTV / Dataset)
+
 ↓
+
 YOLOv8 – Person Detection
+
 ↓
+
 MediaPipe Pose – Body Language Analysis
+
 ↓
+
 Behavior Logic Engine
 (Motion + Crowd + Dwell + Context)
+
 ↓
+
 Continuous Risk Score
+
 ↓
+
 Preventive Alert System
 
 ---
@@ -118,29 +128,29 @@ Press Q to exit.
 ---
 
 ⚠️ Ethical Considerations
-	•	No facial recognition
-	•	No identity storage
-	•	No personal profiling
-	•	Risk is contextual and temporary
-	•	Designed to assist humans, not replace judgment
+- No facial recognition
+- No identity storage
+- No personal profiling
+- Risk is contextual and temporary
+- Designed to assist humans, not replace judgment
 
 ---
 
 🚀 Hackathon Alignment (AMD Slingshot)
-	•	Lightweight inference
-	•	No dependency on CUDA
-	•	Edge-deployable architecture
-	•	Modular and extensible design
-	•	Focus on real-world impact
+- Lightweight inference
+- No dependency on CUDA
+- Edge-deployable architecture
+- Modular and extensible design
+- Focus on real-world impact
 
 ---
 
 📌 Future Enhancements
-	•	Restricted-zone monitoring
-	•	Temporal anomaly learning
-	•	Multi-camera correlation
-	•	Dashboard and analytics UI
-	•	Edge optimization on AMD hardware
+- Restricted-zone monitoring
+- Temporal anomaly learning
+- Multi-camera correlation
+- Dashboard and analytics UI
+- Edge optimization on AMD hardware
 
 ---
 
